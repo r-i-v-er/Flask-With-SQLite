@@ -1,0 +1,14 @@
+.posts {
+    padding-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* .post {
+    display: flex;
+    flex: 1;
+
+    ctrl + / -  to comment out code in vscode
+} */

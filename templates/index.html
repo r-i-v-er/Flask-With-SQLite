@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+
+
+{% block meta %}
+<link rel="stylesheet" href="../static/styles/index.css">
+{% endblock%}
+
+{% block content %}
+<h1>All posts 😋</h1>
+{% for post in posts %}
+    <div class='posts'>
+        <p class="post">{{ post['created'] }} <br> {{ post['title'] }} <br> {{ post['content'] }}</p> <br>
+    </div>
+{% endfor %}
+{% endblock %}
